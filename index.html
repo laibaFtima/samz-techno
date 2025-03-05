@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+          * {
+              margin: 0;
+              padding: 0;
+             
+          }
+          body {
+              color: white;
+              text-align: center;
+              background-color: #caced5;
+          }
+          nav {
+              height: 50px;
+              background-color: #1b2a4e;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+          }
+          nav h2{
+            color: white;
+            padding-right: 400px;
+          }
+          ul {
+              list-style: none;
+              display: flex;
+              gap: 120px;
+              
+          }
+          ul li {
+              font-size: 1.2rem;
+              
+          }
+          ul li a {
+             text-decoration: none;
+             color: white;
+          }
+          .container{
+             background: #3c5273 ;
+             padding: 20px;
+ 
+             border-radius: 10px;
+             box-shadow: 0px 0px 12px rgba(116, 113, 113, 0.1);
+             max-width:35%;
+            height:150px;
+            margin-top: 80px;
+           margin-left: 380px;
+           margin-right: 380px;
+          }
+          .container1{
+         background-color: #2C3E50;
+             padding: 20px;
+             text-align: center;
+             border-radius: 10px;
+             box-shadow: 0px 0px 12px rgba(116, 113, 113, 0.1);
+             width: 60%;
+            height:670px;
+            margin-top: 50px;
+            margin-left: 200px;
+            margin-right: 200px;
+            
+          color: rgb(240, 227, 210);
+     
+    }
+   
+         .skills{
+             background:#2C3E50 ;
+             padding: 20px;
+             text-align: center;
+             border-radius: 10px;
+             box-shadow: 0px 0px 12px rgba(116, 113, 113, 0.1);
+             width: 40%;
+            height:260px;
+            margin-top: 50px;
+            margin-left: 340px;
+            margin-right: 200px;
+         }
+         input{
+          
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 3px;
+     }
+     textarea{
+         border: 2px solid black;
+     }
+     select{
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 3px;
+         border: 2px solid black;
+     }
+    
+     #contact{
+         text-align: center;
+             background-color:#3c5273 ;
+             width:30% ;
+             margin-left: 420px;
+             margin-right: 280px;
+             height: 500px;
+           border-radius:2%;
+          
+     }
+     form{
+         text-align: center;
+     }
+         table {
+             width: 100%;
+             margin: auto;
+             border-collapse: collapse;
+             background: #4b6287;
+             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+             border-radius: 8px;
+             overflow: hidden;
+             color: white;
+         }
+         th, td {
+             padding: 12px;
+             border: 1px solid black;
+             text-align: center;
+             background-color:#3c5273 ;
+         }
+
+         th {
+             background-color: #3c5273;
+             color: white;
+         }
+         button{
+             padding-top:4px;
+             padding-bottom: 4px;
+             padding-left: 15px;
+             padding-right: 15px;
+            border: 1px solid black;
+         }
+         video{
+             padding-top: 10px;
+         }
+         .head{
+            padding-top: 5px;
+            padding-bottom: 5px;
+         }
+         input[type="submit"] {
+           width: 100px; 
+            height: 30px; 
+            font-size: 13px;
+           border-radius: 0.2rem;
+
+}
+
+      </style>
+  </head>
+  <body>
+     <section>
+      <nav>
+        <h2>My Portfolio</h2>
+          <ul>
+              <li><a href="about.html">About me</a></li>
+              <li><a href="prjct.html">Projects</a></li>
+              <li><a href="https://laibaftima.github.io/samz-tech/">Contact</a></li>
+          </ul>
+      </nav>
+    
+      <div class="container">
+        <h1>About Me</h1>
+        <p>
+         "Welcome to my portfolio! I am a passionate web developer with a strong foundation in HTML, CSS, and JavaScript. I love creating responsive and user-friendly websites, and I am currently learning the MERN stack to enhance my skills. Explore my projects and feel free to reach out!"
+        </p>
+      </div>
+      </section>
+    
+      <!-- section2 -->
+      <section class="container1">
+        
+             <h1>My Projects</h1>
+             <h2 style="padding-top: 5px;">Adidas</h2>
+             <p>I created an Adidas-themed project using HTML and CSS, focusing on a clean and modern design. The website showcases stylish layouts, smooth navigation, and a responsive interface. I carefully designed each section to reflect Adidas' branding and aesthetics. This project helped me improve my front-end development skills.</p>
+             <h2 style="padding-bottom: 5px;">Amazon</h2>
+             <p>I built an Amazon clone using HTML and CSS, replicating its layout and design. The project features a structured homepage, product sections, and a responsive interface. I focused on achieving a clean and user-friendly design similar to the original website</p>
+             <h2 style="padding-bottom: 5px;">Spotify</h2>
+             <p>I created a simple Spotify clone using HTML, CSS, and JavaScript. It includes basic music player functionalities like play, pause, forward, and backward. The design is clean and user-friendly, inspired by Spotify’s interface</p>
+             <br>
+             <h2>Here is my project video</h2>
+             <video src="project_xKy1mEwv.mp4" height="300px" width="80%" controls></video>
+       </section>
+       <br>
+       <section class="skills">
+         <h2>My Qualification</h2>
+     
+         <table>
+             <tr>
+                 <th>Degree</th>
+                 <th>Institute</th>
+                 <th>Year</th>
+                 <th>Grade</th>
+             </tr>
+             <tr>
+                 <td>Matric</td>
+                 <td>Allied School</td>
+                 <td>2020</td>
+                 <td>B</td>
+             </tr>
+             <tr>
+                 <td>Intermediate</td>
+                 <td>Punjab College</td>
+                 <td>2022</td>
+                 <td>B</td>
+             </tr>
+             <tr>
+                 <td>Bachelor's</td>
+                 <td>UET</td>
+                 <td>2025</td>
+                 <td>A</td>
+             </tr>
+         </table>
+       </section>
+       <br>
+       <section id="contact">
+         <h2 class="head">Contact me</h2>
+         <form>
+             <input type="text" placeholder="Name">
+             <br><br>
+             <input type="email" placeholder="enter your email">
+             <br><br>
+             <input type="password" placeholder="enter password">
+             <br><br>
+             <input type="number" placeholder="Phone num">
+             <br><br>
+             <label id="deals">
+               <input type="radio" value="burger deal" name="level" id="deals">male
+                 </label>
+               
+               <label id="deal">
+               <input type="radio" value="pizza deal" name="level" id="deal">female
+               </label>
+               <BR>
+                   <br>
+             <select>Select your city
+               <option>lahore</option>
+               <option>multan</option>
+               <option>karachi</option>
+               <option>Gujran wala</option>
+               <option>islamabad</option>
+             </select>
+             <br><br>
+             <textarea rows="8" name="feedback" placeholder="please give your feedback"></textarea>
+             <br><br>
+             <input type="submit" >
+                      
+            
+         </form>
+        </section>
+     
+  </body>
+  </html> 
